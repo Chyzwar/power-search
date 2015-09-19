@@ -8,12 +8,12 @@
                  [org.clojure/core.async "0.1.346.0-17112a-alpha"]
                  [khroma "0.0.2"]
                  [prismatic/dommy "1.1.0"]
+                 [racehub/om-bootstrap "0.5.3"]
                  [org.omcljs/om "0.9.0"]]
   
   :source-paths ["src"]
   :profiles
-  {:dev {:plugins [[com.cemerick/austin "0.1.6"]
-                   [lein-cljsbuild "1.1.0"]
+  {:dev {:plugins [[lein-cljsbuild "1.1.0"]
                    [lein-chromebuild "0.2.1"]]
          
          :cljsbuild 

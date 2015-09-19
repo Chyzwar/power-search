@@ -1,0 +1,1 @@
+power_search.repl_connect.init();
